@@ -25,8 +25,11 @@ DiceRoller
 
 	-  In general, if your app can use a compatibility class from the Jetpack libraries, it should use one of those classes, because those classes provide support for the largest possible number of features and devices
 
-	- An important thing to note about vector drawables is that they are supported in API 21 onwards. But your app's minimum SDK is set to API 19. If you tried your app on an API 19 device or emulator, you'd see that the app seems to build and run just fine. So how does this work?
-	When you build your app, the Gradle build process generates a PNG file from each of the vector files, and those PNG files are used on any Android device below 21. These extra PNG files increase the size of your app. Unnecessarily large apps aren't great—they make downloads slower for users and take up more of their devices' limited space. Large apps also have a higher chance of being uninstalled, and of users failing to download or canceling downloads of those apps.
+	- An important thing to note about vector drawables is that they are supported in API 21 onwards. But your app's minimum SDK is set to API 19. If you tried your app on an API 19 device or emulator, you'd see that the app seems to build and run just fine. So how does this work? When you build your app, the Gradle build process generates a PNG file from each of the vector files, and those PNG files are used on any Android device below 21. These extra PNG files increase the size of your app. Unnecessarily large apps aren't great—they make downloads slower for users and take up more of their devices' limited space. Large apps also have a higher chance of being uninstalled, and of users failing to download or canceling downloads of those apps.
 	To use to compat library for vector drawables:
 	vectorDrawables.useSupportLibrary = true >> Build.gradle
 	and use srcCompat instead of src
+
+	- If you have a widget that has a png/vector drawable background set by android:background, and you want to change its default color, then you can use android:backgroundTint to add a shade to it.
+
+	- If you try to change the accent color of the FloatingActionButton using android:background you won't notice a change, that is because it's already utilizes app:srcCompat, so in order to do that you can use android:backgroundTint instead
