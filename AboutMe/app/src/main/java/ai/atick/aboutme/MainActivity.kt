@@ -35,7 +35,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showKeyboard() {
-        val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
-        imm.showSoftInput(edit_nickname, 0)
+        val inputMethodManager =
+            getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+        inputMethodManager.showSoftInput(edit_nickname, 0)
     }
 }

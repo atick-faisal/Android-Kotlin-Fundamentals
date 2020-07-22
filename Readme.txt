@@ -33,3 +33,34 @@ DiceRoller
 	- If you have a widget that has a png/vector drawable background set by android:background, and you want to change its default color, then you can use android:backgroundTint to add a shade to it.
 
 	- If you try to change the accent color of the FloatingActionButton using android:background you won't notice a change, that is because it's already utilizes app:srcCompat, so in order to do that you can use android:backgroundTint instead
+
+
+About Me
+--------
+	- A ViewGroup is a view that can contain child views, which are other views and view groups. Views that make up a layout are organized as a hierarchy of views with a view group as the root
+
+	- android:layout_marginLeft should become android:layout_marginStart to support RTL languages
+
+	- New Font from google font can be added from layout editor
+
+	- Right-click the TextView in the Component Tree and select Refactor > Extract Style
+
+	- Showing and Hiding Keyboard
+
+
+
+Color My Views
+--------------
+	- ConstraintContainerLayout : You'll add constraints manually, so you want autoconnect turned off. In the toolbar, locate the Turn Off/On Autoconnect toggle button, which is shown below. (If you can't see the toolbar, click inside the design editor area of the Layout Editor.) Make sure autoconnect is off
+
+	- Use the toolbar to set the default margins
+
+	- Constraint bias positions the view element along the horizontal and vertical axes. By default, the view is centered between the two constraints with a bias of 50%
+
+	- Match Constraints: The view expands as much as possible to meet the constraints on each side, after accounting for the view's own margins. This constraint is very flexible, because it allows the layout to adapt to different screen sizes and orientations. By letting the view match the constraints, you need fewer layouts for the app you're building
+
+	- A chain is a group of views that are linked to each other with bidirectional constraints. The views within a chain can be distributed either vertically or horizontally. For example, the following diagram shows two views that are constrained to each other, which creates a horizontal chain.
+
+	- The first view in a chain is called the head of the chain. The attributes that are set on the head of the chain control, position, and distribute all the views in the chain. For horizontal chains, the head is the left-most view. For vertical chains, the head is the top-most view
+
+	- Chain styles define the way the chained views are spread out and aligned. You style a chain by assigning a chain style attribute, adding weight, or setting bias on the views
