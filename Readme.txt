@@ -92,3 +92,18 @@ Android-Trivia
 	- The navigation components includes a UI library called NavigationUI. The navigation controller integrates with the app bar to implement the behavior of the Up button, so you don't have to do it yourself.
 
 	- If you use the same ID for the menu item as for the destination fragment, you don't need to write any code at all to implement the onClick listener!
+
+
+NavDirection
+------------
+	- Do not edit the NavDirection classes. These classes are regenerated whenever the project is compiled, and your edits will be lost.
+
+	- Before users can share their game results from within the AndroidTrivia app, your code needs to pass parameters from one fragment to another. To prevent bugs in these transactions and make them type-safe, you use a Gradle plugin called Safe Args. The plugin generates NavDirection classes, and you add these classes to your code.
+
+	- Your app could use a Bundle to pass data from fragment A to fragment B. For example, fragment A creates a bundle and saves the information as key-value pairs, then passes the Bundle to fragment B. Then fragment B uses a key to fetch a key-value pair from the Bundle. This technique works, but it can result in code that compiles but then has the potential to cause errors when the app runs.
+
+	- When you use "safe arguments," you can replace fragment classes that are used in navigation code with NavDirection classes. You do this so that you can use type-safe arguments with other fragments in the app.
+
+	- An Intent is a simple message object that's used to communicate between Android components. With an implicit intent, you initiate an activity without knowing which app or activity will handle the task. For example, if you want your app to take a photo, you typically don't care which app or activity performs the task. When multiple Android apps can handle the same implicit intent, Android shows the user a chooser, so that the user can select an app to handle the request.
+
+	- Each implicit intent must have an ACTION that describes the type of thing that is to be done. Common actions, such as ACTION_VIEW, ACTION_EDIT, and ACTION_DIAL, are defined in the Intent class.

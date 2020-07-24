@@ -1,6 +1,7 @@
 package ai.atick.androidtrivia
 
 
+import ai.atick.androidtrivia.databinding.FragmentGameBinding
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -8,9 +9,7 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
-import ai.atick.androidtrivia.databinding.FragmentGameBinding
 import androidx.navigation.findNavController
-import kotlinx.android.synthetic.main.activity_main.*
 
 class GameFragment : Fragment() {
     data class Question(
@@ -87,12 +86,13 @@ class GameFragment : Fragment() {
                     } else {
                         // We've won!  Navigate to the gameWonFragment.
                         view.findNavController()
-                            .navigate(R.id.action_gameFragment_to_gameWonFragment)
+                            .navigate(GameFragmentDirections
+                                .actionGameFragmentToGameWonFragment(numQuestions, questionIndex))
                     }
                 } else {
                     // Game over! A wrong answer sends us to the gameOverFragment.
                     view.findNavController().
-                    navigate(R.id.action_gameFragment_to_gameOverFragment)
+                    navigate(GameFragmentDirections.actionGameFragmentToGameOverFragment())
                 }
             }
         }
