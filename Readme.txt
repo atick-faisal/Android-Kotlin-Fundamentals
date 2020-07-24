@@ -75,3 +75,20 @@ Data Binding
 	- To use data binding, you need to enable data binding in your Gradle file, as it's not enabled by default. This is because data binding increases compile time and may affect app startup time
 
 	- You can take advantage of data binding to make a data class directly available to a view. This technique simplifies the code, and is extremely valuable for handling more complex cases
+
+
+Android-Trivia
+--------------
+	- To use the navigation library, you need to add the navigation dependencies to your Gradle files and Add a navigation graph to the project
+
+	- A navigation host fragment acts as a host for the fragments in a navigation graph. The navigation host fragment is usually named NavHostFragment. As the user moves between destinations defined in the navigation graph, the navigation host fragment swaps fragments in and out as necessary. The fragment also creates and manages the appropriate fragment back stack
+
+	- If the preview shows a "Preview Unavailable" message, click the Text tab to open the navigation XML. Make sure that the fragment element for the gameFragment includes tools:layout="@layout/fragment_game".
+
+	- When the user presses the Back button, the app goes to the destination that's at the top of the back stack. By default, the top of the back stack is the screen that the user last viewed. The Back button is typically the left-most button at the bottom of the screen, as shown below. (The Back button's exact appearance is different on different devices.)
+
+	- The popUpTo attribute of an action "pops up" the back stack to a given destination before navigating. (Destinations are removed from the back stack.) If the popUpToInclusive attribute is false or is not set, popUpTo removes destinations up to the specified destination, but leaves the specified destination in the back stack. If popUpToInclusive is set to true, the popUpTo attribute removes all destinations up to and including the given destination from the back stack. If popUpToInclusive is true and popUpTo is set to the app's starting location, the action removes all app destinations from the back stack. The Back button takes the user all the way out of the app.
+
+	- The navigation components includes a UI library called NavigationUI. The navigation controller integrates with the app bar to implement the behavior of the Up button, so you don't have to do it yourself.
+
+	- If you use the same ID for the menu item as for the destination fragment, you don't need to write any code at all to implement the onClick listener!
