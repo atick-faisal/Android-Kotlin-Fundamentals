@@ -2,11 +2,11 @@ package ai.atick.dessertclicker
 
 import ai.atick.dessertclicker.databinding.ActivityMainBinding
 import android.content.ActivityNotFoundException
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ShareCompat
 import androidx.databinding.DataBindingUtil
 
@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
     // Contains all the views
     private lateinit var binding: ActivityMainBinding
-    private lateinit var dessertTimer : DessertTimer;
+    private lateinit var dessertTimer : DessertTimer
 
     /** Dessert Data **/
 
@@ -58,7 +58,7 @@ class MainActivity : AppCompatActivity() {
             onDessertClicked()
         }
 
-        dessertTimer = DessertTimer()
+        dessertTimer = DessertTimer(lifecycle)
 
         // Set the TextViews to the right values
         binding.revenue = revenue
@@ -66,16 +66,6 @@ class MainActivity : AppCompatActivity() {
 
         // Make sure the correct dessert is showing
         binding.dessertButton.setImageResource(currentDessert.imageId)
-    }
-
-    override fun onStart() {
-        super.onStart()
-        dessertTimer.startTimer()
-    }
-
-    override fun onStop() {
-        super.onStop()
-        dessertTimer.stopTimer()
     }
 
     /**
