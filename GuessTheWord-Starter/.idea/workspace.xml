@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="Game" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="info" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="31fa44b0-d9c1-4e09-96e2-a4122b7df9ed" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -7,6 +12,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="67a3e5730305" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -19,6 +25,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1fQoCEa4xKPS5FzQpgElCbkDZoK" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -29,7 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="memory.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -39,7 +52,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -101,5 +114,31 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="469" y="89" width="424" height="559" key="#com.intellij.ide.util.MemberChooser" timestamp="1596191821877">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="469" y="89" width="424" height="559" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1596191821877" />
+    <state width="1324" height="286" key="GridCell.Tab.0.bottom" timestamp="1596190200545">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1324" height="286" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1596190200545" />
+    <state width="1324" height="286" key="GridCell.Tab.0.center" timestamp="1596190200543">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1324" height="286" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1596190200543" />
+    <state width="1324" height="286" key="GridCell.Tab.0.left" timestamp="1596190200540">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1324" height="286" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1596190200540" />
+    <state width="1324" height="286" key="GridCell.Tab.0.right" timestamp="1596190200544">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1324" height="286" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1596190200544" />
+    <state x="187" y="5" key="SettingsEditor" timestamp="1596187772883">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="187" y="5" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1596187772883" />
   </component>
 </project>
