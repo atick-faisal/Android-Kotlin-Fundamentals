@@ -123,4 +123,17 @@ Dessert Clicker
 
 	- Both onResume() and onPause() have to do with focus. The onResume() method is called when the activity has focus, and onPause() is called when the activity loses focus
 
-	- 
+
+GuessTheWord
+------------
+	- App architecture is a way of designing your apps' classes, and the relationships between them, such that the code is organized, performs well in particular scenarios, and is easy to work with. In this set of four codelabs, the improvements that you make to the GuessTheWord app follow the Android app architecture guidelines, and you use Android Architecture Components. The Android app architecture is similar to the MVVM (model-view-viewmodel) architectural pattern.
+
+	- A UI controller is a UI-based class such as Activity or Fragment. A UI controller should only contain logic that handles UI and operating-system interactions such as displaying views and capturing user input. Don't put decision-making logic, such as logic that determines the text to display, into the UI controller.
+
+	- A ViewModel holds data to be displayed in a fragment or activity associated with the ViewModel. A ViewModel can do simple calculations and transformations on data to prepare the data to be displayed by the UI controller. In this architecture, the ViewModel performs the decision-making.
+
+	- A ViewModelFactory instantiates ViewModel objects, with or without constructor parameters.
+
+	- During configuration changes such as screen rotations, UI controllers such as fragments are re-created. However, ViewModel instances survive. If you create the ViewModel instance using the ViewModel class, a new object is created every time the fragment is re-created. Instead, create the ViewModel instance using a ViewModelProvider.
+
+	- The ViewModel should never contain references to fragments, activities, or views, because activities, fragments, and views do not survive configuration changes.
