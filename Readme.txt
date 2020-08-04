@@ -137,3 +137,18 @@ GuessTheWord
 	- During configuration changes such as screen rotations, UI controllers such as fragments are re-created. However, ViewModel instances survive. If you create the ViewModel instance using the ViewModel class, a new object is created every time the fragment is re-created. Instead, create the ViewModel instance using a ViewModelProvider.
 
 	- The ViewModel should never contain references to fragments, activities, or views, because activities, fragments, and views do not survive configuration changes.
+
+
+LiveData
+---------
+	- LiveData is observable, which means that an observer is notified when the data held by the LiveData object changes. LiveData holds data; LiveData is a wrapper that can be used with any data. LiveData is lifecycle-aware. When you attach an observer to the LiveData, the observer is associated with a LifecycleOwner (usually an Activity or Fragment). The LiveData only updates observers that are in an active lifecycle state such as STARTED or RESUMED.
+
+	- To change the value of a LiveData variable, you use the setValue() method on the variable. In Kotlin, you can call setValue() using the value property.
+
+	- Fragment views get destroyed when a user navigates away from a fragment, even though the fragment itself is not destroyed. This essentially creates two lifecycles, the lifecycle of the fragment, and the lifecycle of the fragment's view. Referring to the fragment's lifecycle instead of the fragment view's lifecycle can cause subtle bugs when updating the fragment's view. Therefore, when setting up observers that affect the fragment's view you should:
+		1. Set up the observers in onCreateView()
+		2. Pass in viewLifecycleOwner to observers
+
+	- Encapsulation is a way to restrict direct access to some of an object's fields. When you encapsulate an object, you expose a set of public methods that modify the private internal fields. Using encapsulation, you control how other classes manipulate these internal fields.
+
+	- A backing property allows you to return something from a getter other than the exact object
