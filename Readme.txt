@@ -156,3 +156,13 @@ LiveData
 	- The observer pattern is a software design pattern. It specifies communication between objects: an observable (the "subject" of observation) and observers. An observable is an object that notifies observers about the changes in its state.
 
 	- Usually, LiveData delivers updates to the observers only when data changes. An exception to this behavior is that observers also receive updates when the observer changes from an inactive to an active state.
+
+LiveData Transformations
+------------------------
+	- The Transformations.map() method provides a way to perform data manipulations on the source LiveData and return a result LiveData object. These transformations aren't calculated unless an observer is observing the returned LiveData object.
+
+	- Note: The lambda function passed to Transformation.map() is executed on the main thread, so do not include long-running tasks.
+
+Room Database
+-------------
+	- An entity represents an object or concept, and its properties, to store in the database. An entity class defines a table, and each instance of that class represents a row in the table. Each property defines a column. In your app, the entity is going to hold information about a night of sleep.
