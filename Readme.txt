@@ -181,3 +181,9 @@ Room Database
 
 	- Multiple threads can potentially ask for a database instance at the same time, resulting in two databases instead of one. This problem is not likely to happen in this sample app, but it's possible for a more complex app. Wrapping the code to get the database into synchronized means that only one thread of execution at a time can enter this block of code, which makes sure the database only gets initialized once.
 
+	- Inside the synchronized block, copy the current value of INSTANCE to a local variable instance. This is to take advantage of smart cast, which is only available to local variables.
+
+	- The merge tag can be used to eliminate redundant layouts when including layouts, and it's a good idea to use it. An example of a redundant layout would be ConstraintLayout > LinearLayout > TextView, where the system might be able to eliminate the LinearLayout. This kind of optimization can simplify the view hierarchy and improve app performance.
+
+	- 
+
