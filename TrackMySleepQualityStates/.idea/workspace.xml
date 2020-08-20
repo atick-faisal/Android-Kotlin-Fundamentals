@@ -7,7 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88eba8fe-ea3f-49a1-b73e-6f54a1233b96" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,9 +41,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Android Instrumented Tests.SleepDatabaseTest">
+  <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -187,9 +186,9 @@
       <screen x="0" y="0" width="1366" height="740" />
     </state>
     <state x="198" y="0" width="965" height="737" key="CommitChangelistDialog2/0.0.1366.740@0.0.1366.740" timestamp="1596560296487" />
-    <state x="170" y="10" key="SettingsEditor" timestamp="1597247341211">
+    <state x="170" y="10" key="SettingsEditor" timestamp="1597429458979">
       <screen x="0" y="0" width="1366" height="740" />
     </state>
-    <state x="170" y="10" key="SettingsEditor/0.0.1366.740@0.0.1366.740" timestamp="1597247341211" />
+    <state x="170" y="10" key="SettingsEditor/0.0.1366.740@0.0.1366.740" timestamp="1597429458979" />
   </component>
 </project>
