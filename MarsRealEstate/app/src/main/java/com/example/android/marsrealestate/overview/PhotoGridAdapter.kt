@@ -25,7 +25,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.android.marsrealestate.databinding.GridViewItemBinding
 import com.example.android.marsrealestate.network.MarsProperty
 
-class PhotoGridAdapter: ListAdapter<MarsProperty, PhotoGridAdapter.PhotoViewHolder>(PhotoDiffUtil) {
+class PhotoGridAdapter(private val clickListener: PhotoGridClickListener):
+        ListAdapter<MarsProperty, PhotoGridAdapter.PhotoViewHolder>(PhotoDiffUtil) {
     companion object PhotoDiffUtil: DiffUtil.ItemCallback<MarsProperty>() {
         override fun areItemsTheSame(oldItem: MarsProperty, newItem: MarsProperty): Boolean {
             return oldItem === newItem
@@ -36,7 +37,8 @@ class PhotoGridAdapter: ListAdapter<MarsProperty, PhotoGridAdapter.PhotoViewHold
         }
     }
 
-    class PhotoViewHolder(private val binding: GridViewItemBinding): RecyclerView.ViewHolder(binding.root) {
+    class PhotoViewHolder private constructor(private val binding: GridViewItemBinding):
+            RecyclerView.ViewHolder(binding.root) {
         companion object {
             fun from(parent: ViewGroup): PhotoViewHolder {
                 val layoutInflater = LayoutInflater.from(parent.context)
@@ -49,8 +51,9 @@ class PhotoGridAdapter: ListAdapter<MarsProperty, PhotoGridAdapter.PhotoViewHold
             }
         }
 
-        fun bind(item: MarsProperty) {
+        fun bind(item: MarsProperty, clickListener: PhotoGridClickListener) {
             binding.property = item
+            binding.clickListener = clickListener
             binding.executePendingBindings()
         }
     }
@@ -61,6 +64,10 @@ class PhotoGridAdapter: ListAdapter<MarsProperty, PhotoGridAdapter.PhotoViewHold
 
     override fun onBindViewHolder(holder: PhotoViewHolder, position: Int) {
         val item = getItem(position)
-        holder.bind(item)
+        holder.bind(item, clickListener)
     }
+}
+
+class PhotoGridClickListener(val clickListener: (property: MarsProperty) -> Unit) {
+    fun onClick(property: MarsProperty) = clickListener(property)
 }
