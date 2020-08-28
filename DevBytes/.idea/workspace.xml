@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AndroidLayouts">
-    <shared>
-      <config />
-    </shared>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="277e1561-df98-43f5-942c-24593c72def7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../RecyclerViewClickHandler/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../RecyclerViewClickHandler/.idea/modules/app/app.iml" afterDir="false" />
-    </list>
+    <list default="true" id="7b58a800-f710-4f7e-9a2f-1df68b004800" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="67a3e5730305" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -27,33 +19,18 @@
       </state>
     </system>
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="MarsRealEstate" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Kotlin Class" />
-        <option value="Kotlin File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1fcB3NZ89dInLsI58m6H3cq4jxd" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1fc7pdESbS04M3pfTNlJYdiqqau" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
@@ -65,7 +42,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -122,54 +99,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="277e1561-df98-43f5-942c-24593c72def7" name="Default Changelist" comment="" />
-      <created>1596507300943</created>
+      <changelist id="7b58a800-f710-4f7e-9a2f-1df68b004800" name="Default Changelist" comment="" />
+      <created>1596505710631</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1596507300943</updated>
+      <updated>1596505710631</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="469" y="90" width="424" height="559" key="#com.intellij.ide.util.MemberChooser" timestamp="1598596343274">
-      <screen x="0" y="0" width="1366" height="740" />
-    </state>
-    <state x="469" y="90" width="424" height="559" key="#com.intellij.ide.util.MemberChooser/0.0.1366.740@0.0.1366.740" timestamp="1598596343274" />
-    <state x="415" y="158" width="531" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1598612257131">
-      <screen x="0" y="0" width="1366" height="740" />
-    </state>
-    <state x="415" y="158" width="531" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.740@0.0.1366.740" timestamp="1598612257131" />
-    <state width="1324" height="178" key="GridCell.Tab.0.bottom" timestamp="1598616002731">
-      <screen x="0" y="0" width="1366" height="740" />
-    </state>
-    <state width="1324" height="178" key="GridCell.Tab.0.bottom/0.0.1366.740@0.0.1366.740" timestamp="1598616002731" />
-    <state width="1324" height="178" key="GridCell.Tab.0.center" timestamp="1598616002731">
-      <screen x="0" y="0" width="1366" height="740" />
-    </state>
-    <state width="1324" height="178" key="GridCell.Tab.0.center/0.0.1366.740@0.0.1366.740" timestamp="1598616002731" />
-    <state width="1324" height="178" key="GridCell.Tab.0.left" timestamp="1598616002730">
-      <screen x="0" y="0" width="1366" height="740" />
-    </state>
-    <state width="1324" height="178" key="GridCell.Tab.0.left/0.0.1366.740@0.0.1366.740" timestamp="1598616002730" />
-    <state width="1324" height="178" key="GridCell.Tab.0.right" timestamp="1598616002731">
-      <screen x="0" y="0" width="1366" height="740" />
-    </state>
-    <state width="1324" height="178" key="GridCell.Tab.0.right/0.0.1366.740@0.0.1366.740" timestamp="1598616002731" />
   </component>
 </project>
