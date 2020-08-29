@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DevBytes-starter.iml" filepath="$PROJECT_DIR$/.idea/modules/DevBytes-starter.iml" group="DevBytes-starter" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="DevBytes-starter/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DevBytes.iml" filepath="$PROJECT_DIR$/.idea/modules/DevBytes.iml" group="DevBytes" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="DevBytes/app" />
     </modules>
   </component>
 </project>

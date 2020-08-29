@@ -1,0 +1,4 @@
+#Fri Aug 28 19:41:29 BDT 2020
+base.0=/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

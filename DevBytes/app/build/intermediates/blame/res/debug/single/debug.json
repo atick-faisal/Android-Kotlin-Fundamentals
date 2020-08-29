@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/build/intermediates/res/merged/debug/navigation_nav_graph.xml.flat",
+        "source": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/src/main/res/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/build/intermediates/res/merged/debug/layout_devbyte_item.xml.flat",
+        "source": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/src/main/res/layout/devbyte_item.xml"
+    },
+    {
+        "merged": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/build/intermediates/res/merged/debug/layout_fragment_dev_byte.xml.flat",
+        "source": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/src/main/res/layout/fragment_dev_byte.xml"
+    },
+    {
+        "merged": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/build/intermediates/res/merged/debug/drawable_ic_play_circle_outline_black_48dp.xml.flat",
+        "source": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/src/main/res/drawable/ic_play_circle_outline_black_48dp.xml"
+    },
+    {
+        "merged": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/build/intermediates/res/merged/debug/layout_activity_dev_byte_viewer.xml.flat",
+        "source": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/src/main/res/layout/activity_dev_byte_viewer.xml"
+    },
+    {
+        "merged": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/andromeda/Kotlin/Android-Kotlin-Fundamentals/DevBytes/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    }
+]
