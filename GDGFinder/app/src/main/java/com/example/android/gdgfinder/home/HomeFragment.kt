@@ -40,6 +40,8 @@ class HomeFragment : Fragment() {
         val binding = HomeFragmentBinding.inflate(inflater)
         viewModel = ViewModelProviders.of(this).get(HomeViewModel::class.java)
 
+        binding.textInput.error = "ErrorMessage"
+
         return binding.root
     }
 }
